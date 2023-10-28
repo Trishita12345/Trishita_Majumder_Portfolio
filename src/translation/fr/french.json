@@ -49,8 +49,8 @@
         "title": "Notre client heureux"
     },
     "contactUs": {
-        "contactus": "Contactez-nous",
-        "header1": "N'hésitez pas à nous contacter",
+        "contactus": "Contactez moi",
+        "header1": "N'hésitez pas à me contacter",
         "header2": "Si vous avez besoin de plus d'aide.",
         "address": "Adresse",
         "phone": "Téléphone",
@@ -77,13 +77,14 @@
         "ourTopProjects": "Nos meilleurs projets",
         "seeAllProjects": "Voir tous les projets",
         "ourProjects": "Nos Projets",
-        "tous": "Tous",
+        "all": "Tous",
         "domain": "Catégorie",
         "clientName": "Nom du client",
         "githubLink": "Lien GitHub",
         "websiteUrl": "Lien vers le site Web",
         "finishDate": "Date de fin",
         "collaboration": "Collaboration",
+        "Full_stack": "Un paquet entier",
         "GRPAC_Desc": "Il s'agit d'une application utilisée dans les services sociaux pour obtenir la signature numérique des gens ordinaires.Il prend en charge 2 langues bengali et anglais pour une plus grande portée client.Il possède des fonctionnalités telles que la connexion à Google et des écrans autentifiés pour l'administrateur. Configuration de Firebase, hébergement, téléchargement d'images, intégration de la passerelle de paiement, etc."
     }
 }
