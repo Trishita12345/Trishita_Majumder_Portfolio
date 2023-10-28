@@ -2,7 +2,7 @@ import { images } from "../../src/Assets/images"
 
 export const projectData = (t: any) =>
 ({
-    domains: ['Full Stack'],
+    domains: [{ name: t('Full_stack'), value: 'Full Stack' }],
     projects: [
         {
             imgSrc: images.GRPAC_Thambnail,
