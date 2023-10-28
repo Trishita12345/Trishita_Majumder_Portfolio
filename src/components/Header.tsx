@@ -6,6 +6,7 @@ import { PiSuitcaseSimpleLight } from 'react-icons/pi';
 import { NavigationComponent } from './NavigationComponent';
 import FixedBottomNavigation from './BottomNavigation';
 
+import PDF from '../Assets/Trishita_Majumder_Detail_CV.pdf';
 export const LogoComponent = () => {
     const navigate = useNavigate();
     return (
@@ -86,12 +87,12 @@ const Header = () => {
                 <LanguageComponent />
                 {!screenSizeDownSm
                     ? <Button variant="contained" sx={{ backgroundColor: theme.palette.primary.light, textTransform: 'capitalize' }}>
-                        <Link color={"#ffffff"} sx={{ textDecoration: "none" }} href={images.BackgroundImage} download={"BackgroundImage.svg"}>
+                        <Link color={"#ffffff"} sx={{ textDecoration: "none" }} href={PDF} download="Trishita_Majumder_Detail_CV.pdf">
                             {t('downloadCvText')}
                         </Link>
                     </Button>
                     : <Fab sx={{ position: "fixed", bottom: 70, right: 30, backgroundColor: theme.palette.secondary.main, color: "white" }}>
-                        <Link color={"#ffffff"} sx={{ textDecoration: "none" }} href={images.BackgroundImage} download={"BackgroundImage.svg"}>
+                        <Link color={"#ffffff"} sx={{ textDecoration: "none" }} href={PDF} download="Trishita_Majumder_Detail_CV.pdf">
                             <PiSuitcaseSimpleLight size={"20px"} />
                         </Link>
                     </Fab>
