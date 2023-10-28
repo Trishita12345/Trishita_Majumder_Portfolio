@@ -87,7 +87,7 @@ const AllProjects = () => {
                     >
                         <Tab label={t('all')} {...a11yProps(0)} sx={{ textTransform: 'capitalize' }} />
                         {data.domains.map((item: any, idx: number) =>
-                            <Tab label={item} {...a11yProps(idx + 1)} sx={{ textTransform: 'capitalize' }} />
+                            <Tab label={item.name} {...a11yProps(idx + 1)} sx={{ textTransform: 'capitalize' }} />
                         )}
                     </Tabs>
                 </Box>
@@ -95,10 +95,12 @@ const AllProjects = () => {
                     <TabPanel value={value} index={0} dir={theme.direction}>
                         <ProjectItems data={data.projects} />
                     </TabPanel>
-                    {data.domains.map((item: any, idx: number) =>
-                        <TabPanel value={value} index={idx + 1} dir={theme.direction}>
-                            <ProjectItems data={data.projects.filter((item: any) => item.domain === data.domains[value - 1])} />
-                        </TabPanel>
+                    {data.domains.map((i: any, idx: number) => {
+                        return (<TabPanel value={value} index={idx + 1} dir={theme.direction}>
+                            <ProjectItems data={data.projects.filter((item: any) => item.domain === data.domains[value - 1]?.value)} />
+                        </TabPanel>)
+                    }
+
                     )}
                 </Box>
             </Box >
