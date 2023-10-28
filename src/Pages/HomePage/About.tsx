@@ -5,6 +5,7 @@ import { MdDrafts } from 'react-icons/md'
 import { motion } from "framer-motion"
 import { ReactNode } from 'react';
 
+import PDF from '../../Assets/Trishita_Majumder_Detail_CV.pdf';
 const About = () => {
     const theme = useTheme();
     const screenSizeDownMd = useMediaQuery(theme.breakpoints.down('md'))
@@ -68,7 +69,7 @@ const About = () => {
                                     {t('header2')}{t('header3')}
                                 </Typography>
                                 <Typography fontSize={'12px'}>{t('aboutText')}</Typography>
-                                <Button variant="contained" sx={{ backgroundColor: theme.palette.primary.light, textTransform: 'capitalize', width: 'max-content' }} ><Link color={"#ffffff"} sx={{ textDecoration: "none" }} href={images.BackgroundImage} download={"BackgroundImage.svg"}> {t('downloadCvText')} </Link></Button>
+                                <Button variant="contained" sx={{ backgroundColor: theme.palette.primary.light, textTransform: 'capitalize', width: 'max-content' }} ><Link color={"#ffffff"} sx={{ textDecoration: "none" }} href={PDF} download={"Trishita_Majumder_Detail_CV.pdf"}> {t('downloadCvText')} </Link></Button>
                             </Box>
                         </FadeIn>
                     </Grid>
