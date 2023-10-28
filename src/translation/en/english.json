@@ -51,8 +51,8 @@
         "title": "Our Happy Client"
     },
     "contactUs": {
-        "contactus": "Contact Us",
-        "header1": "Don't Hesitate To Contact Us",
+        "contactus": "Contact Me",
+        "header1": "Don't Hesitate To Contact Me",
         "header2": "If You Need More Help.",
         "address": "Address",
         "phone": "Phone",
@@ -86,6 +86,7 @@
         "websiteUrl": "Website Link",
         "finishDate": "Finish Date",
         "collaboration": "Collaboration",
+        "Full_stack": "Full Stack",
         "GRPAC_Desc": "It is a application that is being used in Social service for getting digital signature from common people. It supports 2 language Bengali & English for more customer reach.It has features like Google Sign in, Autenticated Screens for Admin. Firebase setup, Hosting, Image upload, Payment Gateway integration etc."
     }
 }
